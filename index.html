@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - password</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.rtl.min.css" integrity="sha512-1AUA4XywXUvp1pikc0kOnWxNn8Bm1/svdKiCpQm7i//Ao5Dor/sWF1h1A15fj0Vi69DwrlIpL2rfPYX1YNc+5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <section class="container">
+    <div class="login-container">
+      <div class="circle circle-one"></div>
+      <div class="form-container">
+        <img src="./assets/illustration.png" alt="illustration" class="illustration" />
+        <h1 class="opacity">EMAIL</h1>
+        <form class="myForm">
+         <label for="" class="form-label w-100">
+          <input value="" class="form-control myform__email" type="email" placeholder="Email" />
+          <span class="valid-feedback">Tog'ri</span>
+          <span class="invalid-feedback">Notog'ri</span>
+         </label>
+          <label for="" class="form-label w-100">
+            <input class="form-control myform__password" type="password" placeholder="PASSWORD" />
+            <span class="valid-feedback">Tog'ri</span>
+            <span class="invalid-feedback">Notog'ri</span>
+          </label>
+          <button  type="submit">SUBMIT</button>
+        </form>
+        <div class="register-forget opacity">
+          <a href="">REGISTER</a>
+          <a href="">FORGOT PASSWORD</a>
+        </div>
+      </div>
+      <div class="circle circle-two"></div>
+    </div>
+    <div class="theme-btn-container"></div>
+  </section>
+
+
+
+  <div class="mymodal ">
+    <div class="mymodal__content text-center align-items-center ">
+      Muvofaqayatli
+    </div>
+  </div>
+
+
+  <script src="./validation.js"></script>
+  <script src="./main.js"></script>
+
+</body>
+
+</html>
